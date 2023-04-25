@@ -52,29 +52,23 @@
     ],
     
     "customizations": {
-      "vscode": {
-        // 코드스페이스 커스터마이징
-        "extensions": [
-          // VS Code 익스텐션
-          // GitHub 코파일럿 관련
-            "GitHub.copilot",
-            "GitHub.copilot-labs",
+      "extensions": [
+        // GitHub 코파일럿 관련
+        "GitHub.copilot",
+        "GitHub.copilot-labs",
+  
+        // C# 관련
+        "ms-dotnettools.vscode-dotnet-pack",
+        "kreativ-software.csharpextensions",
+  
+        // Azure 관련
+        "ms-vscode.vscode-node-azure-pack",
+        "ms-azuretools.vscode-bicep"
+      ],
 
-      // C# 관련
-            "ms-dotnettools.vscode-dotnet-pack",
-            "kreativ-software.csharpextensions",
-
-      // Azure 관련
-            "ms-vscode.vscode-node-azure-pack",
-            "ms-azuretools.vscode-bicep"
-        ],
-    
-        "settings": {
-          // VS Code 환경 설정
-
-          "editor.minimap.enabled": false,
-          "explorer.sortOrder": "type"
-        }
+      "settings": {
+        "editor.minimap.enabled": false,
+        "explorer.sortOrder": "type"
       }
     },
   
