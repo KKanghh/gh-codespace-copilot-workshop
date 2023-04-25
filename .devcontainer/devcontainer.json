@@ -16,27 +16,25 @@
     ],
     
     "features": {
-      // 추가 기능
-
       // Azure CLI
-    "ghcr.io/devcontainers/features/azure-cli:latest": {
+      "ghcr.io/devcontainers/features/azure-cli:latest": {
         "version": "latest"
       },
-
+  
       // GitHub CLI
-    "ghcr.io/devcontainers/features/github-cli:latest": {
+      "ghcr.io/devcontainers/features/github-cli:latest": {
         "version": "latest"
       },
-
+  
       // node.js
-    "ghcr.io/devcontainers/features/node:latest": {
+      "ghcr.io/devcontainers/features/node:latest": {
         "version": "lts",
         "nodeGypDependencies": true,
         "nvmInstallPath": "/usr/local/share/nvm"
       },
-
-      // common utilities 코드스페이스 생성 시 있으면 좋은 값
-    "ghcr.io/devcontainers/features/common-utils:latest": {
+  
+      // common utilities
+      "ghcr.io/devcontainers/features/common-utils:latest": {
         "installZsh": true,
         "installOhMyZsh": true,
         "upgradePackages": true,
